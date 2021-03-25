@@ -24,6 +24,7 @@ function div(a, b){
 }
 const highOrderFunc = function (a, b, operationFunc){
   const result = operationFunc(a, b);
+  console.log(operationFunc);
   return result;
 }
 
