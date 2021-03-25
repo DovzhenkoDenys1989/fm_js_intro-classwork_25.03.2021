@@ -27,6 +27,7 @@ const highOrderFunc = function (a, b, operationFunc){
   return result;
 }
 
+const countedValue = highOrderFunc(numA, numB, sum);
 console.log(highOrderFunc(numA, numB, sum));
 
 
